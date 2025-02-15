@@ -1,0 +1,32 @@
+{
+    "name": "mageforge/quick-index-for-magento-2",
+    "description": "Reindex only selected products",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.0.0|~8.0.0",
+        "magento/framework": "*"
+    },
+    "authors": [
+        {
+            "name": "MageForge - Free Modules"
+        }
+    ],
+    "type": "magento2-module",
+    "license": "MIT",
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+            "MageForge\\QuickIndex\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "MageForge/QuickIndex"
+            ]
+        ]
+    }
+}
